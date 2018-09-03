@@ -1,0 +1,52 @@
+/* Color */
+$brand-white: #F9F9F9;
+$text-dark: #212121;
+
+body {
+    font-size: 12px;
+}
+
+.display--table {
+    display: table;
+}
+.display--table-cell {
+    display: table-cell;
+}
+.ipay--left {
+    float: left;
+}
+
+.ipay--right {
+    float: right;
+}
+
+.ipay-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    &.section--medium {
+        padding: 48px 0;
+    }
+    @media (max-width: 767.98px) {
+        padding: 56px 0;
+    }
+}
+.white-section {
+    background-color: #ffffff;
+}
+.grey-section {
+    background-color: #f9f9f9;
+}
+
+.img-holder {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    display: block;
+    margin: 0 auto 25px;
+    img {
+    position: absolute;
+    bottom: 0;
+    left: 19px;
+    }
+}
+

@@ -1,0 +1,368 @@
+.ipay-btn-small {
+    border: 1px solid #00D3C0;
+    border-radius: 100px;
+    font-family: Montserrat-Medium;
+    font-size: 9px;
+    color: #212121;
+    letter-spacing: 0.19px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    background-color: transparent;
+}
+.ipay-btn-small:hover {
+    color: #ffffff;
+    background-color: #00D3C0;
+    border-color: #00D3C0;
+}
+
+.btn--white {
+    background: $brand-white;
+    color: $text-dark;
+}
+
+
+/*  ========================================  */
+
+button {
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-family: $brand-text;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 42px;
+  box-sizing: content-box;
+  color: white;
+  padding: 0px 20px;
+  margin: 0px 5px 10px;
+  background-position: 0px 0px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+    @media (max-width: 991.98px) {
+        font-size: 11px !important;
+    }
+  &:hover {
+    opacity: 0.9;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.button--full {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  &.button--small {
+    background-color: $brand-color;
+    height: 16px;
+    line-height: 18px;
+    padding: 7px 17px;
+    width: auto;
+    margin: 0 5px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+    &.button--large {
+    background-color: $brand-color;
+    height: 16px;
+    line-height: 18px;
+    padding: 16px 48px;
+    width: auto;
+    margin: 0 5px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+    &.button--signup {
+        background-color: $brand-color;
+        height: 16px;
+        line-height: 18px;
+        padding: 12px 32px;
+        width: auto;
+        margin: 0 5px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: $white;
+        color: $text-dark;
+        border: none;
+  }
+    &.ipay--brand {
+    background-color: $brand-color-accent;
+  }
+  &.ipay--blue {
+    background-color: $accent-blue;
+  }
+  &.ipay--green {
+    background-color: $accent-green;
+  }
+  &.ipay--yellow {
+    background-color: $accent-yellow;
+  }
+  &.ipay--white {
+    background-color: transparent;
+    border: 1px solid $brand-color-accent;
+    color: $text-dark;
+    transition-property: background-color, color, opacity;
+    transition-duration: 0.3s;
+    &:hover {
+      background-color: $brand-color-accent;
+      border-color: $brand-color-accent;
+      color: $white;
+      opacity: 1;
+    }
+  }
+  &.ipay--delete {
+    color: darken($brand-color, 3);
+    border-color: darken($brand-color, 3);
+    &:hover {
+      background-color: darken($brand-color, 3);
+      border-color: darken($brand-color, 3);
+    }
+  }
+  &.text--button {
+    padding: 0;
+    background: transparent;
+    color: $accent-blue;
+    font-size: 14px;
+    line-height: 0;
+    height: auto;
+    margin: 0 20px 0 0;
+    padding: 10px 0;
+    text-transform: none;
+  }
+  &.ipay--btn--icon {
+      display: inline;
+      width: auto;
+      height: auto;
+      vertical-align: inherit;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 1;
+      box-sizing: content-box;
+      color: $icon-color;
+      padding: 10px 12px;
+      margin: 0;
+      background-position: 0px 0px;
+      border-radius: 50px;
+      border: 1px solid $brand-gray;
+      background: transparent;
+      transition-property: color, border;
+      transition-duration: 0.3s;
+      &.ipay--small {
+          font-size: 9px;
+      }
+    &:hover {
+      color: darken($icon-color, 10);
+      border: 1px solid darken($brand-gray, 10);
+    }
+  }
+  span.button--text {
+     padding: 0 0 0 2px;
+  }
+}
+.pill-item {
+  padding: 0;
+  margin: -20px 0 15px 0;
+  list-style: none;
+}
+.ipay-pill {
+  position: relative;
+  padding: 6px 28px 6px 10px;
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px 5px 10px 0;
+  border: 1px solid $brand-gray;
+  border-radius: 25px;
+  background-color: lighten($brand-gray, 6);
+  i {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    font-size: 12px;
+    color: $text-dark-medium;
+  }
+}
+
+
+// dropdown button
+
+$spot-color: #3d5b92;
+$white: #fff;
+$light-spot: lighten($spot-color, 58%);
+$line-spot: lighten($spot-color, 52%);
+
+html{font-family: lato;}
+
+@mixin ease-background-color{
+  /*@include transition-property(background-color);*/
+  @include transition-duration(350ms);
+  @include transition-timing-function(ease-in-out);
+}
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@mixin rem-fallback($property, $values...) {
+  $max: length($values);
+  $pxValues: '';
+  $remValues: '';
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $pxValues: #{$pxValues + $value*16}px;
+
+    @if $i < $max {
+      $pxValues: #{$pxValues + " "};
+    }
+  }
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $remValues: #{$remValues + $value}rem;
+
+    @if $i < $max {
+      $remValues: #{$remValues + " "};
+    }
+  }
+
+  #{$property}: $pxValues;
+  #{$property}: $remValues;
+}
+
+@mixin button{
+  color: $white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  padding: 0.3em .75em 0.4em;
+  line-height: 1;
+  text-decoration: none;
+  /*@include ease-background-color;*/
+  cursor: pointer;
+  &:hover{
+    text-decoration: none;
+
+  }
+}
+.button{
+  @include button;
+  display: inline-block;
+}
+
+.btn-large{
+  padding: 1em;
+  text-align: center;
+}
+
+.btn-create{
+  &:before{
+    content: "+";
+    padding-right: .5em;
+    font-weight:bold;
+  }
+}
+
+.btn-create.btn-large{
+  position: relative;
+  padding-left: 3em;
+  padding-right: 1.5em;
+  &:before{
+    content: "+";
+    font-size: 2em;
+    position: absolute;
+    @include rem-fallback(left, 1);
+    @include rem-fallback(top, .4);
+  }
+}
+
+.button-dropdown{
+  position: relative;
+  display: inline-block;
+  .btn-create{
+  }
+  .button.toggle{
+    text-indent: 100%;
+    overflow: hidden;
+    display: inline-block;
+    width: 33px;
+    padding: 1em .3em;
+    vertical-align: bottom;
+    margin-left: -3px;
+    border-left:0;
+    position: relative;
+    display: none; // set it temp
+    &:after{
+      content: '';
+      position: absolute;
+      top: 1.4em;
+      left: 16px;
+      width: 0;
+      height: 0;
+      border: 6px solid transparent;
+      border-top-color: #fff;
+    }
+  }
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 5px;
+    right: 0;
+    list-style-type: none;
+    padding: 5px 0;
+    width: 220px;
+    border: 1px solid $brand-gray;
+    border-radius: 4px;
+    background-color: $white;
+    li{
+      background: $white;
+      padding: 0 16px;
+/*      &:first-child .dropdown-link{
+        &:before{
+          content: '';
+          position: absolute;
+          bottom: 100%;
+          right: 13px;
+          width: 0;
+          height: 0;
+          border: 6px outset transparent;
+          border-bottom: 6px solid $line-spot;
+        }
+      }*/
+
+      &:last-child {
+      }// last-child
+    }// a
+
+    .dropdown-link {
+      display: block;
+      position: relative;
+      padding: 8px 0;
+      color: $text-dark-medium;
+      text-decoration: none;
+      transition-property: color;
+      transition-duration: 0.3s;
+      &:hover{
+        color: $accent-green;
+      }
+    }
+  }
+}
+
+.button-dropdown li:first-child>.dropdown-link:hover:before {
+  border-bottom-color: darken($line-spot, 5%);
+}
+
+.dropdown:hover {
+  display: block;
+}
+
+.button-dropdown:hover>.dropdown, .button-dropdown.open>.dropdown {
+  display: block;
+}
+

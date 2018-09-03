@@ -1,0 +1,65 @@
+#secondary-nav {
+    background-color: $brand-color-light;
+    z-index: 99999999999;
+  .secondary__menu__holder {
+      height: 40px;
+      .menu__list {
+        padding: 14px 0;
+        margin: 0;
+        list-style-type: none;
+        /*@include centre(y);*/
+          li {
+            float: left;
+            padding: 0 10px 0 0;
+            margin-right: 10px;
+            border-right: 1px solid #666;
+            font-family: $brand-text;
+            font-size: 10px;
+            font-weight: 500;
+            color: #212121;
+            text-transform: uppercase;
+            display: block;
+            height: 12px;
+            line-height: 14px;
+          a {
+            color: #666;
+              &:hover {
+                  color: #212121;
+                  text-decoration: none;
+              }
+              &.brand {
+                  color: $brand-color;
+              }
+          }
+          &:last-child {
+              border-right: none;
+              padding-right: 0;
+              margin-right: 0;
+          }
+      }
+        &.first--menu {
+            @media (max-width: 575.98px) {
+            display: none;
+            }    
+          }
+          &.download__app {
+             display: none;
+              @media (max-width: 575.98px) {
+                  display: block;
+                  margin-top: -4px;
+              }
+              span {
+                  display: inline-block;
+                  padding: 0 6px;
+                  font-size: 16px;
+                  a {
+                      color: #666;
+                  }
+                  &:first-child {
+                      padding-left: 4px;
+                  }
+              }
+          }
+      } 
+  }
+}

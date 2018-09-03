@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>make-payment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-973.000000, -994.000000)">
+        <g id="type-of-account" transform="translate(156.000000, 880.000000)">
+            <g id="Group-10" transform="translate(144.000000, 80.000000)">
+                <g id="block-3" transform="translate(580.000000, 0.000000)">
+                    <g id="make-payment" transform="translate(94.000000, 35.000000)">
+                        <rect id="Rectangle-14" x="0" y="0" width="72" height="72"></rect>
+                        <g id="make-payment-icon" stroke="#00D3C0">
+                            <path d="M71.79714,51.7123161 C71.79714,62.4729707 62.97354,71.1885496 52.08534,71.1885496 C41.19354,71.1885496 32.37174,62.4729707 32.37174,51.7123161 C32.37174,40.9552183 41.19354,32.2378611 52.08534,32.2378611 C62.97354,32.2378611 71.79714,40.9552183 71.79714,51.7123161 Z" id="Stroke-1"></path>
+                            <polyline id="Stroke-3" stroke-linecap="round" stroke-linejoin="round" points="40.2111 51.450013 48.2661 60.1371386 63.9567 43.289272"></polyline>
+                            <path d="M33.31332,57.6898055 C18.69552,48.595443 5.20272,32.3362025 0.20232,23.0373325 L12.48912,22.375795" id="Stroke-5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M32.3694,54.3710923 C17.6436,41.2079185 11.5182,24.4720864 10.8612,8.91172831 L46.6182,0.055661624 C46.0296,1.27915036 45.162,5.91169126 44.8272,7.27211115" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M41.5926,8.19008336 C41.5926,7.46986107 41.7744,4.8557209 41.9832,4.48760729" id="Stroke-9" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M32.38704,50.9099352 C23.44644,40.0656993 19.43424,25.778623 21.57084,13.8745045 L54.62784,4.48849645 C50.01444,12.1833158 48.09924,23.7513307 54.68364,32.4082248" id="Stroke-11" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M33.7212,44.6137697 C32.8032,43.7690645 31.9986,42.7820932 31.365,41.6688608 C28.0836,35.9497623 31.4478,29.0960914 37.1286,26.4961778 C42.8526,23.8909293 47.7828,26.2436554 49.8834,31.9556406" id="Stroke-13" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M48.39192,12.1834937 C48.65292,10.949335 48.99492,9.7489645 49.41972,8.59127385" id="Stroke-15" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
