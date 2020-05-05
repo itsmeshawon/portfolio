@@ -24,6 +24,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+  color: #161e2e;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h1 {
 h2 {
   font-size: 52px;
   line-height: 66px;
-  margin-bottom: 64px;
+  margin-bottom: 36px;
 }
 
 h3 {
@@ -61,7 +62,7 @@ p.subtitle {
 p {
   font-size: 18px;
   line-height: 28px;
-  color: #8c8f94;
+  color: #666666;
 }
 
 a {
@@ -427,7 +428,7 @@ input[type="email"]:focus {
 
 #header p {
   font-size: 20px;
-  color: #8c8f94;
+  color: #666666;
 }
 
 #header .header_iphone {
@@ -440,6 +441,7 @@ input[type="email"]:focus {
 
 #header .video-btn {
   margin-top: 16px;
+  background-color: #ffffff;
 }
 
 #header .video-btn i {
@@ -471,8 +473,8 @@ input[type="email"]:focus {
 *****************************************************/
 #ribbon-area {
   padding: 60px 0;
-  background-color: #121111;
-  /*background-color: #161e2e;*/
+  /*background-color: #121111;*/
+  background-color: #161e2e;
   color: #fff;
 }
 
@@ -482,6 +484,7 @@ input[type="email"]:focus {
 
 #ribbon-area .ribbon h4{
   margin-bottom: 12px;
+  color: #fff;
 }
 #ribbon-area .ribbon p{
   color: #fff;
@@ -505,7 +508,7 @@ input[type="email"]:focus {
   padding: 240px 0 330px;
 }
 
-#ibusiness-in-pocket .btns-container {
+#business-in-pocket .btns-container {
   margin-top: 62px;
 }
 
@@ -538,6 +541,10 @@ input[type="email"]:focus {
   overflow: hidden;
 }
 
+#sms-credit-sales .btns-container {
+  margin-top: 62px;
+}
+
 #sms-credit-sales .partners {
   margin-top: 52px;
 }
@@ -568,7 +575,49 @@ input[type="email"]:focus {
   bottom: 30px;
   left: 50%;
 }
+/*****************************************************
+*** Map Feature ***
+*****************************************************/
+#bangla-bornomala {
+  padding: 120px 0 140px;
+  position: relative;
+  overflow: hidden;
+}
 
+#bangla-bornomala .btns-container {
+  margin-top: 62px;
+}
+
+#bangla-bornomala .partners {
+  margin-top: 52px;
+}
+
+#bangla-bornomala .partners .title {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#bangla-bornomala .partners ul {
+  margin: 26px 0 0;
+}
+
+#bangla-bornomala .partners ul li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+#bangla-bornomala .partners ul li:last-child {
+  margin-right: 0;
+}
+
+#bangla-bornomala .bornomala-showcase {
+  position: absolute;
+  bottom: 180px;
+  left: 55%;
+}
 
 /*****************************************************
 *** iPhone Feature ***
@@ -638,7 +687,7 @@ input[type="email"]:focus {
 
 #map-feature .map-showcase {
   position: absolute;
-  bottom: 30px;
+  bottom: 130px;
   left: 45%;
 }
 
