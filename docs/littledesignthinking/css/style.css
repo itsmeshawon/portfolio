@@ -205,7 +205,7 @@ input[type="email"]:focus {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 8px 0;
+  padding: 20px 0;
   font-size: 16px;
   z-index: 10;
   background-color: transparent;
@@ -421,7 +421,7 @@ input[type="email"]:focus {
 #main-nav.active {
   /*background-color: rgba(255,255,255,0.3);*/
   background-color: rgba(0,0,0,0.6);
-  padding: 8px 0;
+  padding: 20px 0;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
@@ -634,7 +634,7 @@ input[type="email"]:focus {
   #quote-holder .quote-items {
     border-bottom: 3px solid #fff;
     margin-bottom: 100px;
-    padding: 0 8.66666% 50px 2%;
+    padding: 0 8.66666% 60px 2%;
   }
 
   #quote-holder .extra-large h1 {
@@ -685,7 +685,7 @@ input[type="email"]:focus {
   #quote-holder .quote-items {
     border-bottom: 3px solid #fff;
     margin-bottom: 100px;
-    padding: 0 12.66666% 50px 2%;
+    padding: 0 12.66666% 60px 2%;
   }
 
   #quote-holder .extra-large h1 {
