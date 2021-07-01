@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.mss-header {
+    background-color: rgb(255 255 255 / 80%);
+    display: block;
+    padding: 1rem 1.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999999999999;
+    top: 0;
+}
+
+.mss-header .px-2 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+}
+.mss-header-right {
+    float: right;
+}
+
+.mss-logo {
+    margin-bottom: 0!important;
+    float: left;
+}
+
+.mss-nav {
+    padding-bottom: 0!important;
+}
+
+.mss-nav li {
+    font-size: 0.7rem;
+    line-height: 3.1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mss-nav li .nav-link {
+    color: #0000FF;
+}
+
+.mss-container {
+    margin-top: 5rem;
+}
+
+.mss-intro-text {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.mss-intro-text h1, .mss-portfolio-item-list h2, .mss-container-inner h1, .mss-bottom-line h2 {
+    color: #0000FF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.mss-intro-text h2 {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+.mss-intro-text p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.mss-section-title {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.mss-portfolio-item-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mss-portfolio-item-list li {
+    position: relative;
+    padding-bottom: 7.5rem;
+}
+
+.mss-port-image {
+    max-width: 100%;
+}
+
+.mss-portfolio-item-list h2 {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+.mss-portfolio-item-list h2 a {
+
+}
+
+
+.mss-portfolio-item-list h3 {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.mss-portfolio-item-list .mss-port-item-title {
+    margin-top: -2.5rem;
+    margin-left: 4rem;
+}
+
+.mss-footer {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.mss-bottom-line {
+    padding: 5rem 0;
+    background-color: #0000FF;
+    color: #fff;
+}
+.mss-bottom-line .btn-group-lg>.btn, .mss-bottom-line .btn-lg {
+    padding: .5rem 2rem;
+    font-size: 1.1rem;
+
+}
+.mss-bottom-line h2 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+.mss-bottom-line .btn {
+    border-radius: 0;
+}
+
+.mss-container-inner {
+    margin-top: 12.7rem;
+}
+.mss-container-inner .row {
+    padding-bottom: 7.5rem;
+}
+.mss-container-inner .row:last-child {
+    /*padding-bottom: 0;*/
+}
+.mss-container-inner h1 {
+    font-size: 5rem;
+    line-height: 1;
+    padding-bottom: 2rem;
+}
+.inner-intro-para {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 1.5rem;
+}
+.mss-container-inner .short-meta-info {
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+.mss-container-inner .short-meta-info span {
+    display: block;
+    font-size: .65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+.mss-container-inner .short-meta-info:last-child {
+    padding-bottom: 0;
+}
+
+.mss-container-inner h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+.inner-regular-para  {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.persona-info {
+    display: block;
+    padding-bottom: 1rem;
+}
+.persona-info .persona-photo {
+    float: left;
+    padding-right: 1rem;
+}
+
+.persona-photo img {
+    max-width: 6.5rem;
+}
+.persona-info .persona-details {
+    float: left;
+    padding-top: .25rem;
+    font-size: 1rem;
+
+}
+.image-caption {
+    font-size: .75rem;
+    text-align: center;
+    padding: .8rem 0;
+}
+
+.navigation-for-project .thank-you {
+    display: block;
+    font-size: 3rem;
+    padding: .5rem;
+}
+
+.navigation-for-project h4 {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    line-height: 1.6rem;
+}
+.navigation-for-project .next-previous a {
+    color: rgb(0 0 0 / 40%);
+}
+.navigation-for-project .next-previous a:hover {
+    color: #000;
+}
+.navigation-for-project .next-previous svg {
+    stroke-width: .5;
+    width: 5rem;
+    height: 5rem;
+}
+
+.next-previous {
+    padding: 1rem 1rem 0;
+    float: left;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 280px) { 
+    .mss-portfolio-item-list li, .mss-container-inner .row {
+        padding-bottom: 4rem;
+    }
+    .mss-intro-text h1 {
+        font-size: 2rem;
+    }
+    .mss-intro-text h2 {
+        font-size: 1.75rem;
+        font-weight: 300;
+    }
+
+    .mss-portfolio-item-list h2, .mss-container-inner h1 {
+        font-size: 2.5rem;
+    }
+    .mss-bottom-line h2 {
+        font-size: 1.75rem;
+    }
+    .mss-portfolio-item-list h3 {
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .mss-portfolio-item-list .mss-port-item-title {
+        margin-top: -1.25rem;
+        margin-left: 1.25rem;
+    }
+ }  
+
+/* Media Queries */
+ @media only screen and (min-width: 401px) { 
+    .mss-portfolio-item-list li, .mss-container-inner .row {
+        padding-bottom: 4rem;
+    }
+    .mss-intro-text h1 {
+        font-size: 2rem;
+    }
+    .mss-intro-text h2 {
+        font-size: 1.75rem;
+        font-weight: 300;
+    }
+
+    .mss-portfolio-item-list h2, .mss-container-inner h1 {
+        font-size: 2.2rem;
+    }
+    .mss-bottom-line h2 {
+        font-size: 1.75rem;
+    }
+    .mss-portfolio-item-list h3 {
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .mss-portfolio-item-list .mss-port-item-title {
+        margin-top: -1.25rem;
+        margin-left: 1.25rem;
+    }
+ }
+
+
+@media only screen and (min-width: 600px) { 
+    .mss-portfolio-item-list li, .mss-container-inner .row {
+        padding-bottom: 5rem;
+    }
+    .mss-intro-text h1 {
+        font-size: 2.5rem;
+    }
+    .mss-intro-text h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .mss-portfolio-item-list h2, .mss-container-inner h1 {
+        font-size: 3.5rem;
+    }
+    .mss-bottom-line h2 {
+        font-size: 2.5rem;
+    }
+    .mss-portfolio-item-list h3 {
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .mss-portfolio-item-list .mss-port-item-title {
+        margin-top: -1.5rem;
+        margin-left: 2rem;
+    }
+}
+
+
+ @media only screen and (min-width: 801px) {
+    .mss-portfolio-item-list li, .mss-container-inner .row {
+        padding-bottom: 5rem;
+    }
+    .mss-intro-text h1 {
+        font-size: 2.75rem;
+    }
+    .mss-intro-text h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .mss-portfolio-item-list h2, .mss-container-inner h1{
+        font-size: 4rem;
+    }
+
+    .mss-bottom-line h2 {
+        font-size: 2.5rem;
+    }
+    
+    .mss-portfolio-item-list h3 {
+        font-size: 1.125rem;
+        line-height: 1;
+    }
+    .mss-portfolio-item-list .mss-port-item-title {
+        margin-top: -2.5rem;
+        margin-left: 4rem;
+    }
+ }
+
+
+@media only screen and (min-width: 1200px) { 
+    .mss-portfolio-item-list li, .mss-container-inner .row {
+        padding-bottom: 7.5rem;
+    }
+
+    .mss-intro-text h1 {
+        font-size: 3rem;
+    }
+    .mss-intro-text h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .mss-portfolio-item-list h2 {
+        font-size: 4.5rem;
+    }
+    .mss-container-inner h1 {
+        font-size: 5rem;
+    }
+    .mss-portfolio-item-list h3 {
+        font-size: 1.25rem;
+        line-height: 1;
+    }
+    .mss-portfolio-item-list .mss-port-item-title {
+        margin-top: -2.5rem;
+        margin-left: 4rem;
+    }
+ }
+
+
+
