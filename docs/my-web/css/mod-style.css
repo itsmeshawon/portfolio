@@ -27,6 +27,7 @@ a:hover {
     padding-right: 1rem!important;
     padding-left: 1rem!important;
 }
+
 .mss-header-right {
     float: right;
 }
@@ -49,6 +50,10 @@ a:hover {
 
 .mss-nav li .nav-link {
     color: #0000FF;
+}
+
+.mss-nav li:last-child {
+    padding-right: 0!important;
 }
 
 .mss-container {
@@ -126,7 +131,7 @@ a:hover {
 
 .mss-bottom-line {
     padding: 5rem 0;
-    background-color: #0000FF;
+    background-color: #111111;
     color: #fff;
 }
 .mss-bottom-line .btn-group-lg>.btn, .mss-bottom-line .btn-lg {
