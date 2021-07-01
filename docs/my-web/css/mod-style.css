@@ -52,7 +52,7 @@ a:hover {
     color: #0000FF;
 }
 
-.mss-nav li:last-child {
+.mss-nav li .last-link {
     padding-right: 0!important;
 }
 
@@ -235,6 +235,11 @@ a:hover {
     letter-spacing: .2rem;
     line-height: 1.6rem;
 }
+
+.navigation-for-project .next-previous {
+    color: rgb(0 0 0 / 20%);
+}
+
 .navigation-for-project .next-previous a {
     color: rgb(0 0 0 / 40%);
 }
